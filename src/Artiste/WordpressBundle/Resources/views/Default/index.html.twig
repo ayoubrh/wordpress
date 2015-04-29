@@ -1,0 +1,17 @@
+
+<html>
+<head>
+
+</head>
+<body>
+Hello {{ name }}!</br></br></br></br>
+{% for p in post %}
+    {{ p.title }}</br>
+    {{ p.status }}</br>
+    {{ p.content }}</br>
+    <img src={{ img }}>
+
+    </br></br></br></br></br></br>
+{% endfor %}
+</body>
+</html>

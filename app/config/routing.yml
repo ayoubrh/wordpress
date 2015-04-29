@@ -1,0 +1,10 @@
+artiste_wordpress:
+    resource: "@ArtisteWordpressBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+ekino_wordpress:
+    resource: "@EkinoWordpressBundle/Resources/config/routing.xml"

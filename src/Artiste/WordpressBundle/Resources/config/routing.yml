@@ -1,0 +1,3 @@
+artiste_wordpress_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ArtisteWordpressBundle:Default:index }
